@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Greeting() {
+function Greeting(props) {
   return (
-    <h1>hello Ahmed Abdulrahman</h1>
+    <h1>hello {props.name}</h1>
   )
 }
 
